@@ -8,6 +8,7 @@ public class Main {
             char[] miArray = leerArchivoACharArray("input.txt");
 
             System.out.println(miArray);
+            System.out.println(miArray.length);
 
         } catch (IOException e) {
             System.err.println("Error al leer el archivo: " + e.getMessage());

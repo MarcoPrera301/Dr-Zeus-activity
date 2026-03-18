@@ -1,0 +1,3 @@
+1er bit longitud tabla
+caracter frecuencia caracter frecuencia
+simbolos

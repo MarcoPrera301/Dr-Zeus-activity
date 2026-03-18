@@ -18,4 +18,9 @@ public class Main {
         String contenido = new String(Files.readAllBytes(Paths.get(ruta)));
         return contenido.toCharArray();
     }
+
+    public static String leerArchivo(String ruta) throws IOException {
+        String contenido = new String(Files.readAllBytes(Paths.get(ruta)));
+        return contenido;
+    }
 }

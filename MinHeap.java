@@ -54,4 +54,15 @@ class MinHeap {
     public int getSize() {
         return size;
     }
+
+    public static void generarCodigos(Nodo nodo, String codigo) {
+        if (nodo == null) return;
+
+        if (nodo.izquierda == null && nodo.derecha == null) {
+            System.out.println(nodo.simbolo + ": " + codigo);
+        }
+
+        generarCodigos(nodo.izquierda, codigo + "0");
+        generarCodigos(nodo.derecha, codigo + "1");
+    }
 }
